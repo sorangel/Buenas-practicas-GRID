@@ -1,0 +1,38 @@
+.navbar {
+  overflow: hidden;
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+    grid-template-rows: auto;
+    align-items: center;
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+
+      li {
+        display: flex;
+        font-weight: bold;
+
+        a {
+          text-decoration: none;
+          color: black;
+          padding: 1.6em;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    padding: 10px;
+    color: black;
+  }
+}
